@@ -20,7 +20,7 @@
     "autoprefixer": "^10.4.13",
     "body-parser": "^1.20.2",
     "concurrently": "^8.2.2",
-    "contentlayer": "0.3.4",
+    "contentlayer": "^0.3.4",
     "esbuild": "0.18.11",
     "express": "^4.18.3",
     "github-slugger": "^2.0.0",
@@ -50,6 +50,7 @@
   "devDependencies": {
     "@svgr/webpack": "^8.0.1",
     "@types/mdx": "^2.0.5",
+    "@types/node": "20.11.30",
     "@types/react": "^18.2.14",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
