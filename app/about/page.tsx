@@ -10,13 +10,13 @@ export default function Page() {
   return (
     <>
       {allAuthors.map((author: Authors) => {
-        const mainContent = coreContent(author);
+        const mainContent = coreContent(author)
         return (
           <AuthorLayout key={author.slug} content={mainContent}>
             <MDXLayoutRenderer code={author.body.code} />
           </AuthorLayout>
-        );
+        )
       })}
     </>
-  );
+  )
 }
